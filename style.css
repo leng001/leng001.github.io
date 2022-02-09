@@ -1,0 +1,143 @@
+body {
+		margin: 0px 0px 0px 0px;
+		padding:0px;
+		background: #565656;
+            	font-family: trebuchet ms, helvetica, verdana;
+            	font-size: 9pt;		
+		}
+
+	td {             	
+		font-family: trebuchet ms, helvetica, verdana;
+            	font-size: 9pt; 
+		color:#000000;
+		}	
+	#pixels {
+		position: relative;	
+		top:0;
+		left:0;
+		width:1000;
+		height:1000;
+		border:0;
+		margin-left: auto; 
+		margin-right: auto;
+		text-align: center;
+		}
+
+	#note {
+		color: #c4e2bf;
+		font-family: trebuchet ms, arial, helvetica;
+            	font-size: 8pt; 
+		background:#646464;
+		text-align: center;
+		margin-left: auto; 
+		margin-right: auto;
+		}
+
+	h1,h2,h3,h4,h5 {
+		margin: 0px 0px 0px 0px;
+		}
+	#tablebreak {
+		background:#646464;
+		}
+
+	#statgreen { 
+		color: #33ff00;
+		font-weight: bold;
+		}
+
+	#statred { 
+		color: #ff0000;
+		font-weight: bold;
+		}
+
+	#stats {
+		position: absolute;	
+		top:4;
+		left:880;
+		width:116px;
+		height:37;
+		border:0;
+		padding: 2 0 0 0;
+		background: url(statbg-out.gif) no-repeat #646464;
+		vertical-align:middle;
+		text-align:center;
+		line-height:16px;
+		}
+
+
+	#toplogo {
+		position: relative;	
+		top:0;
+		left:0;
+		width:1000px;
+		height:45;
+		border:0;
+		margin-left: auto; 
+		margin-right: auto;
+		text-align: center;
+		background:#c4e2c0;
+		}
+
+
+	#navbar {
+		position: absolute;	
+		top:45;
+		left: auto;
+		width:800px;
+		height:20px;
+		border:2px;
+		border-style: solid;
+		margin-left: auto; 
+		margin-right: auto;
+		text-align: center;
+		background: url(navbg.gif) repeat #c69b1d;
+		}
+
+	#links {
+
+		height:20px;
+		width:600px;
+		border:0px;
+		text-align: center;
+		margin-left: auto; 
+		margin-right: auto;
+		}
+	
+
+	a.nav:link {
+		color: #000000; font-weight: bold; text-decoration: none; font-size: 9pt;
+		}
+
+	a.nav:visited {
+		color: #000000; font-weight: bold; text-decoration: none;
+		}
+
+	a.nav:hover {
+		text-decoration: underline;
+		}
+
+
+	a.pix:link {
+		border: none;
+		}
+
+	a.pix:visited {
+		border: none;
+		}
+
+	a.pix:hover {
+		border: 5px;
+		}
+
+
+	a:link {
+		color: #000099; font-weight: bold; text-decoration: none; font-size: 9pt;
+		}
+
+	a:visited {
+		color: #000099; font-weight: bold; text-decoration: none;
+		}
+
+	a:hover {
+		text-decoration: underline;
+		}
